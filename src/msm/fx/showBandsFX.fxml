@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msm.fx.ShowBandsFX">
+   <children>
+      <RadioButton fx:id="btnMain" layoutX="92.0" layoutY="49.0" mnemonicParsing="false" onAction="#showMainBand" text="Main Band" />
+      <RadioButton fx:id="btnJazz" layoutX="261.0" layoutY="49.0" mnemonicParsing="false" onAction="#showJazzGroup" text="Jazz Group" />
+      <RadioButton fx:id="btnMetal" layoutX="429.0" layoutY="49.0" mnemonicParsing="false" onAction="#showMetalEnsemble" text="Metal Ensemble" />
+      <RadioButton fx:id="btnClarinets" layoutX="92.0" layoutY="104.0" mnemonicParsing="false" onAction="#showClarinetsEnsemble" text="Clarinets Ensemble" />
+      <RadioButton fx:id="btnPercussion" layoutX="261.0" layoutY="104.0" mnemonicParsing="false" onAction="#showPercussionEnsemble" text="Percussion Ensemble" />
+      <ListView fx:id="listBand" layoutY="156.0" prefHeight="244.0" prefWidth="600.0" />
+      <RadioButton fx:id="btnAll" layoutX="429.0" layoutY="104.0" mnemonicParsing="false" onAction="#showAll" text="Show All" />
+   </children>
+</AnchorPane>

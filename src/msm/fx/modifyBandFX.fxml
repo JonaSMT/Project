@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msm.fx.ModifyBandFX">
+   <children>
+      <Label layoutX="57.0" layoutY="44.0" text="Rehearsal" />
+      <TextField fx:id="txtRehearsal" layoutX="57.0" layoutY="73.0" />
+      <Label layoutX="57.0" layoutY="128.0" text="Performance" />
+      <TextField fx:id="txtPerformance" layoutX="57.0" layoutY="157.0" />
+      <Label layoutX="57.0" layoutY="222.0" text="Amount" />
+      <TextField fx:id="txtAmount" layoutX="57.0" layoutY="251.0" />
+      <Button layoutX="81.0" layoutY="323.0" mnemonicParsing="false" onAction="#modifyBand" text="Modify" />
+      <ListView fx:id="listBand" layoutX="358.0" onMouseClicked="#confirmSelection" prefHeight="400.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

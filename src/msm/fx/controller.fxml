@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msm.fx.Controller">
+   <children>
+      <Button layoutX="46.0" layoutY="104.0" mnemonicParsing="false" onAction="#AddMember" text="Add Member" />
+      <Button layoutX="200.0" layoutY="104.0" mnemonicParsing="false" onAction="#showMembers" text="Show Members" />
+      <Button layoutX="40.0" layoutY="327.0" mnemonicParsing="false" onAction="#addInstrument" text="Add Instrument" />
+      <Button layoutX="176.0" layoutY="327.0" mnemonicParsing="false" onAction="#showInstruments" text="Show Instruments" />
+      <Button layoutX="333.0" layoutY="327.0" mnemonicParsing="false" onAction="#modifyInstrument" text="Modify Instrument" />
+      <Button layoutX="504.0" layoutY="327.0" mnemonicParsing="false" onAction="#deleteInstrument" text="Delete Instrument" />
+      <Button layoutX="57.0" layoutY="245.0" mnemonicParsing="false" onAction="#addBand" text="AddBand" />
+      <Button layoutX="151.0" layoutY="246.0" mnemonicParsing="false" onAction="#showAll" prefHeight="25.0" prefWidth="99.0" text="Show Bands" />
+      <Button layoutX="273.0" layoutY="246.0" mnemonicParsing="false" onAction="#modifyBand" text="Modify Band" />
+      <Button layoutX="379.0" layoutY="245.0" mnemonicParsing="false" onAction="#deleteBand" text="Delete Band" />
+      <Button layoutX="337.0" layoutY="104.0" mnemonicParsing="false" onAction="#modifyMember" text="Modify Member" />
+      <Button layoutX="478.0" layoutY="104.0" mnemonicParsing="false" onAction="#deleteMember" text="Delete Member" />
+   </children>
+</AnchorPane>

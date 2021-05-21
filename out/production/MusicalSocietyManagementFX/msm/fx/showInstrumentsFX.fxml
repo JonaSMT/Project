@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msm.fx.ShowInstrumentsFX">
+   <children>
+      <RadioButton fx:id="metal" layoutX="40.0" layoutY="52.0" mnemonicParsing="false" onAction="#showWindMetal" text="Wind Metal" />
+      <RadioButton fx:id="wood" layoutX="166.0" layoutY="52.0" mnemonicParsing="false" onAction="#showWindWood" text="Wind Wood" />
+      <RadioButton fx:id="percussion" layoutX="300.0" layoutY="52.0" mnemonicParsing="false" onAction="#showPercussion" text="Percussion" />
+      <RadioButton fx:id="all" layoutX="420.0" layoutY="52.0" mnemonicParsing="false" onAction="#showAllInstruments" text="All Instruments" />
+      <ListView fx:id="listInstruments" editable="true" layoutY="100.0" prefHeight="300.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>

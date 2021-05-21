@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msm.fx.AddMemberFX">
+   <children>
+      <Label layoutX="82.0" layoutY="58.0" text="Name" />
+      <TextField fx:id="txtName" layoutX="145.0" layoutY="54.0" />
+      <Label layoutX="90.0" layoutY="106.0" text="Age" />
+      <TextField fx:id="txtAge" layoutX="145.0" layoutY="102.0" />
+      <Label layoutX="90.0" layoutY="154.0" text="DNI" />
+      <TextField fx:id="txtDni" layoutX="145.0" layoutY="150.0" />
+      <Button fx:id="btnSave" layoutX="82.0" layoutY="290.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button layoutX="275.0" layoutY="290.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <ListView fx:id="listInstruments" layoutX="400.0" layoutY="2.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="listBands" layoutX="400.0" layoutY="202.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="66.0" layoutY="194.0" text="MemberShip" />
+      <ComboBox fx:id="comboShip" layoutX="145.0" layoutY="190.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

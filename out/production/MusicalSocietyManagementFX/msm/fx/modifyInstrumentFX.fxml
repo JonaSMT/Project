@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msm.fx.ModifyInstrumentFX">
+   <children>
+      <ListView fx:id="listInstruments" layoutX="400.0" onMouseClicked="#showName" prefHeight="400.0" prefWidth="200.0" />
+      <Label layoutX="72.0" layoutY="68.0" text="Name" />
+      <TextField fx:id="txtModify" layoutX="125.0" layoutY="64.0" />
+      <Button fx:id="btnSave" layoutX="63.0" layoutY="329.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button layoutX="274.0" layoutY="329.0" mnemonicParsing="false" onAction="#close" text="Cancel" />
+      <Label layoutX="27.0" layoutY="141.0" text="Name to Replace" />
+      <TextField fx:id="txtModify2" layoutX="126.0" layoutY="137.0" prefHeight="25.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>
